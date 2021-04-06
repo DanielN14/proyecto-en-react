@@ -23,9 +23,11 @@ function Mapa() {
             center: [lng, lat],
             zoom: zoom
         });
+        map.addControl(new mapboxgl.NavigationControl());
+        map.addControl(new mapboxgl.FullscreenControl());
         return () => map.remove();
-    }, []);
-    
+    });
+
     return (
         <Fragment>
             <div id="map" ref={mapContainer}></div>

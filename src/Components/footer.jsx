@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+// import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -9,15 +10,21 @@ function Footer() {
                         <div className="row">
                             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 margin_bottom_30">
                                 <div className="full width_9" style={{ marginBottom: "25px" }}>
-                                    <a href="/">
-                                        <img className="img-responsive" width="250" src="Assets/images/logo.png" alt="#"></img>
-                                    </a>
+                                    {/* <Link to={"/home"}> */}
+                                        <img className="img-responsive" width="250" src="Assets/images/logo.png" alt="#" />
+                                    {/* </Link> */}
                                 </div>
                                 <div className="full width_9">
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                                    <p>
+                                        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
+                                        sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+                                    </p>
                                 </div>
                                 <div className="full width_9">
-                                    <p>the vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati..</p>
+                                    <p>
+                                        the vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                        voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati..
+                                    </p>
                                 </div>
                             </div>
                             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-3 margin_bottom_30">
@@ -57,7 +64,7 @@ function Footer() {
                                     </div>
                                     <div className="blog_post_footer">
                                         <div className="blog_post_img">
-                                            <img width="80" height="80" src="Assets/images/scr1.png" alt="#"></img>
+                                            <img width="80" height="80" src="Assets/images/scr1.png" alt="#" />
                                         </div>
                                         <div className="blog_post_cont">
                                             <p className="date">July 22, 2015</p>
@@ -66,7 +73,7 @@ function Footer() {
                                     </div>
                                     <div className="blog_post_footer">
                                         <div className="blog_post_img">
-                                            <img width="80" height="80" src="Assets/images/scr2.png" alt="#"></img>
+                                            <img width="80" height="80" src="Assets/images/scr2.png" alt="#" />
                                         </div>
                                         <div className="blog_post_cont">
                                             <p className="date">July 22, 2015</p>
@@ -75,7 +82,7 @@ function Footer() {
                                     </div>
                                     <div className="blog_post_footer">
                                         <div className="blog_post_img">
-                                            <img width="80" height="80" src="Assets/images/scr3.png" alt="#"></img>
+                                            <img width="80" height="80" src="Assets/images/scr3.png" alt="#" />
                                         </div>
                                         <div className="blog_post_cont">
                                             <p className="date">July 22, 2015</p>

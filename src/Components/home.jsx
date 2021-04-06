@@ -40,7 +40,7 @@ function Home() {
                                 <p>
                                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                                     totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo.<br></br><br></br>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!
+                                    dicta sunt explicabo.<br/><br/>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!
                                 </p>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ function Home() {
                                 <p>
                                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                                     totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo.<br></br><br></br>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!
+                                    dicta sunt explicabo.<br/><br/>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!
                                 </p>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ function Home() {
                                 <p>
                                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                                     totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo.<br></br><br></br>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!
+                                    dicta sunt explicabo.<br/><br/>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!
                                 </p>
                             </div>
                         </div>
@@ -261,7 +261,7 @@ function Home() {
                                 <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
                                     <div className="step_blog">
                                         <div className="step_inner">
-                                            <i className="fa fa-user"></i><br></br>
+                                            <i className="fa fa-user"></i><br/>
                                             <p>Create an Account</p>
                                         </div>
                                     </div>
@@ -269,7 +269,7 @@ function Home() {
                                 <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
                                     <div className="step_blog">
                                         <div className="step_inner">
-                                            <i className="fa fa-download"></i><br></br>
+                                            <i className="fa fa-download"></i><br/>
                                             <p>Download & Install</p>
                                         </div>
                                     </div>
@@ -277,7 +277,7 @@ function Home() {
                                 <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
                                     <div className="step_blog">
                                         <div className="step_inner">
-                                            <i className="fa fa-thumbs-up"></i><br></br>
+                                            <i className="fa fa-thumbs-up"></i><br/>
                                             <p>Enjoy & Rate us!</p>
                                         </div>
                                     </div>
@@ -314,7 +314,7 @@ function Home() {
                                             </div>
                                             <div className="table_price_cont">
                                                 <div className="table_price_per">
-                                                    <p>$29.00<br></br>
+                                                    <p>$29.00<br/>
                                                         <small>/month</small>
                                                     </p>
                                                 </div>
@@ -339,7 +339,7 @@ function Home() {
                                             </div>
                                             <div className="table_price_cont">
                                                 <div className="table_price_per">
-                                                    <p>$39.00<br></br>
+                                                    <p>$39.00<br/>
                                                         <small>/month</small>
                                                     </p>
                                                 </div>
@@ -364,7 +364,7 @@ function Home() {
                                             </div>
                                             <div className="table_price_cont">
                                                 <div className="table_price_per">
-                                                    <p>$45.00<br></br>
+                                                    <p>$45.00<br/>
                                                         <small>/month</small>
                                                     </p>
                                                 </div>
@@ -394,7 +394,7 @@ function Home() {
                     <div className="row">
                         <div className="col-xs-12 col-sm-12 col-md-6" style={{ padding: '0' }}>
                             <div className="full">
-                                <Mapa></Mapa>
+                                <Mapa />
                             </div>
                         </div>
                         <div className="col-xs-12 col-sm-12 col-md-6" style={{ padding: '0' }}>

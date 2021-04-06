@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 
+import { Link, NavLink } from 'react-router-dom';
+
 function Header() {
     return (
         <Fragment>
@@ -8,24 +10,26 @@ function Header() {
                     <div className="row">
                         <div className="col-md-9 col-lg-10">
                             <div className="logo">
-                                <a href="/"><img src="Assets/images/logo.png" alt="#" /></a>
+                                <Link to={"/home"}><img src="Assets/images/logo.png" alt="#" /></Link>
                             </div>
                             <div className="main_menu float-right">
                                 <div className="menu">
                                     <ul className="clearfix">
-                                        <li className="active"><a href="/">Home</a></li>
-                                        <li><a href="/">About</a></li>
-                                        <li><a href="/">Service</a></li>
-                                        <li><a href="/">Screenshots</a></li>
-                                        <li><a href="/">Pricing</a></li>
-                                        <li><a href="/">Team</a></li>
-                                        <li><a href="/">Contact</a></li>
+                                        <li className="active"><NavLink to={"/home"}>Home</NavLink></li>
+                                        <li><NavLink to={"/about"}>About</NavLink></li>
+                                        <li><NavLink to={"/service"} >Service</NavLink></li>
+                                        <li><NavLink to={"/screenshots"} >Screenshots</NavLink></li>
+                                        <li><NavLink to={"/pricing"}>Pricing</NavLink></li>
+                                        <li><NavLink to={"/team"} >team</NavLink></li>
+                                        <li><NavLink to={"/contact"} >Contact</NavLink></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                         <div className="col-md-3 col-lg-2">
-                            <div className="right_bt"><a className="bt_main" href="/">Get Support</a> </div>
+                            <div className="right_bt">
+                                <Link to={"/home"} className="bt_main">Get Support</Link>
+                            </div>
                         </div>
                     </div>
                 </div>
