@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-
+import { NavLink } from 'react-router-dom';
 import Mapa from './mapa';
 
 function Home() {
@@ -15,7 +15,7 @@ function Home() {
                                     <h2>Familiarize Your Creative Application</h2>
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium..!</p>
                                     <div className="full slide_bt">
-                                        <a className="white_bt bt_main" href="/">Download</a>
+                                        <NavLink className="white_bt bt_main" to={"/service"}>Download</NavLink>
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ function Home() {
                                 <p>
                                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                                     totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo.<br/><br/>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!
+                                    dicta sunt explicabo.<br /><br />Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!
                                 </p>
                             </div>
                         </div>
@@ -66,7 +66,7 @@ function Home() {
                                 <p>
                                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                                     totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo.<br/><br/>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!
+                                    dicta sunt explicabo.<br /><br />Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!
                                 </p>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ function Home() {
                                 <p>
                                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                                     totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                                    dicta sunt explicabo.<br/><br/>Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!
+                                    dicta sunt explicabo.<br /><br />Ut enim ad minima veniam quis nostrum exercitationem ullam corporis..!
                                 </p>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ function Home() {
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium</p>
                                 </div>
                                 <div className="imf_read">
-                                    <a href="/">Read More</a>
+                                    <NavLink to={"/service"}>Read More</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@ function Home() {
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium</p>
                                 </div>
                                 <div className="imf_read">
-                                    <a href="/">Read More</a>
+                                    <NavLink to={"/service"}>Read More</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +141,7 @@ function Home() {
                                     <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusa ntium</p>
                                 </div>
                                 <div className="imf_read">
-                                    <a href="/">Read More</a>
+                                    <NavLink to={"/service"}>Read More</NavLink>
                                 </div>
                             </div>
                         </div>
@@ -261,7 +261,7 @@ function Home() {
                                 <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
                                     <div className="step_blog">
                                         <div className="step_inner">
-                                            <i className="fa fa-user"></i><br/>
+                                            <i className="fa fa-user"></i><br />
                                             <p>Create an Account</p>
                                         </div>
                                     </div>
@@ -269,7 +269,7 @@ function Home() {
                                 <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
                                     <div className="step_blog">
                                         <div className="step_inner">
-                                            <i className="fa fa-download"></i><br/>
+                                            <i className="fa fa-download"></i><br />
                                             <p>Download & Install</p>
                                         </div>
                                     </div>
@@ -277,7 +277,7 @@ function Home() {
                                 <div className="col-lg-3 col-md-6 col-sm-12 col-xs-12">
                                     <div className="step_blog">
                                         <div className="step_inner">
-                                            <i className="fa fa-thumbs-up"></i><br/>
+                                            <i className="fa fa-thumbs-up"></i><br />
                                             <p>Enjoy & Rate us!</p>
                                         </div>
                                     </div>
@@ -314,7 +314,7 @@ function Home() {
                                             </div>
                                             <div className="table_price_cont">
                                                 <div className="table_price_per">
-                                                    <p>$29.00<br/>
+                                                    <p>$29.00<br />
                                                         <small>/month</small>
                                                     </p>
                                                 </div>
@@ -328,7 +328,7 @@ function Home() {
                                                 </div>
                                             </div>
                                             <div className="table_price_bottm">
-                                                <a className="bt_main" href="/">Buy now</a>
+                                                <NavLink className="bt_main" to={"/pricing"}>Buy now</NavLink>
                                             </div>
                                         </div>
                                     </div>
@@ -339,7 +339,7 @@ function Home() {
                                             </div>
                                             <div className="table_price_cont">
                                                 <div className="table_price_per">
-                                                    <p>$39.00<br/>
+                                                    <p>$39.00<br />
                                                         <small>/month</small>
                                                     </p>
                                                 </div>
@@ -353,7 +353,7 @@ function Home() {
                                                 </div>
                                             </div>
                                             <div className="table_price_bottm">
-                                                <a className="reverse_bt bt_main" href="/">Buy now</a>
+                                                <NavLink className="reverse_bt bt_main" to={"/pricing"}>Buy now</NavLink>
                                             </div>
                                         </div>
                                     </div>
@@ -364,7 +364,7 @@ function Home() {
                                             </div>
                                             <div className="table_price_cont">
                                                 <div className="table_price_per">
-                                                    <p>$45.00<br/>
+                                                    <p>$45.00<br />
                                                         <small>/month</small>
                                                     </p>
                                                 </div>
@@ -378,7 +378,7 @@ function Home() {
                                                 </div>
                                             </div>
                                             <div className="table_price_bottm">
-                                                <a className="bt_main" href="/">Buy now</a>
+                                                <NavLink className="bt_main" to={"/pricing"}>Buy now</NavLink>
                                             </div>
                                         </div>
                                     </div>

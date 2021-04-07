@@ -8,16 +8,19 @@ import Pricing from './Components/pricing';
 import Team from './Components/team';
 import Contact from './Components/contact';
 
+import ScrollToTop from './Components/scrollToTop';
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
+
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Header />
         <Switch>
           <Route exact path="/" component={Home}></Route>
-          <Route path="/home" component={Home}></Route>
           <Route path="/about" component={About}></Route>
           <Route path="/service" component={Service}></Route>
           <Route path="/screenshots" component={Screenshots}></Route>
@@ -25,8 +28,8 @@ function App() {
           <Route path="/team" component={Team}></Route>
           <Route path="/contact" component={Contact}></Route>
         </Switch>
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }

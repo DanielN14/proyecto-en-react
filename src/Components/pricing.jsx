@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
-// import { Link } from 'react-router-dom';
+
+import { NavLink } from 'react-router-dom';
+
 import Mapa from './mapa';
 
 function Pricing() {
@@ -59,7 +61,7 @@ function Pricing() {
                                                 </div>
                                             </div>
                                             <div className="table_price_bottm">
-                                                {/* <Link to={"/home"} className="bt_main">Buy now</Link> */}
+                                                <NavLink to={"/"} className="bt_main">Buy now</NavLink>
                                             </div>
                                         </div>
                                     </div>
@@ -84,7 +86,7 @@ function Pricing() {
                                                 </div>
                                             </div>
                                             <div className="table_price_bottm">
-                                                {/* <Link to={"/home"} className="reverse_bt bt_main">Buy now</Link> */}
+                                                <NavLink to={"/"} className="reverse_bt bt_main">Buy now</NavLink>
                                             </div>
                                         </div>
                                     </div>
@@ -109,7 +111,7 @@ function Pricing() {
                                                 </div>
                                             </div>
                                             <div className="table_price_bottm">
-                                                {/* <Link to={"/home"} className="bt_main">Buy now</Link> */}
+                                                <NavLink to={"/"} className="bt_main">Buy now</NavLink>
                                             </div>
                                         </div>
                                     </div>
@@ -137,7 +139,7 @@ function Pricing() {
                                         </div>
                                         <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                                         <div className="form_contact">
-                                            <form action="index.html">
+                                            <form action="/">
                                                 <fieldset>
                                                     <div className="field">
                                                         <input type="text" name="name" placeholder="Your name" required="" />
@@ -166,6 +168,7 @@ function Pricing() {
             </section>
         </Fragment>
     );
+
 }
 
 export default Pricing;

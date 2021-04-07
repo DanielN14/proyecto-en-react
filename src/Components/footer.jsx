@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-// import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -10,9 +10,9 @@ function Footer() {
                         <div className="row">
                             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 margin_bottom_30">
                                 <div className="full width_9" style={{ marginBottom: "25px" }}>
-                                    {/* <Link to={"/home"}> */}
+                                    <NavLink to={"/"}>
                                         <img className="img-responsive" width="250" src="Assets/images/logo.png" alt="#" />
-                                    {/* </Link> */}
+                                    </NavLink>
                                 </div>
                                 <div className="full width_9">
                                     <p>
@@ -50,10 +50,10 @@ function Footer() {
                                 </div>
                                 <div className="full">
                                     <ul className="footer-links">
-                                        <li><a href="/"><i className="fa fa-facebook"></i> 256 Likes</a></li>
-                                        <li><a href="/"><i className="fa fa-github"></i> 57+ Projects</a></li>
-                                        <li><a href="/"><i className="fa fa-twitter"></i> 1,258 Followers</a></li>
-                                        <li><a href="/"><i className="fa fa-pinterest"></i> 2538+ Pins</a></li>
+                                        <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i> 256 Likes</a></li>
+                                        <li><a href="https://github.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i> 57+ Projects</a></li>
+                                        <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i> 1,258 Followers</a></li>
+                                        <li><a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer"><i className="fa fa-pinterest"></i> 2538+ Pins</a></li>
                                     </ul>
                                 </div>
                             </div>
